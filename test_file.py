@@ -1006,7 +1006,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 28,
+      "execution_count": null,
       "metadata": {},
       "outputs": [
         {
@@ -1084,7 +1084,7 @@
         "        ORDER BY age DESC\n",
         "        LIMIT 4\n",
         "    )\n",
-        "    ORDER BY breed ASC;\n",
+        "    ORDER BY breed DESC;\n",
         "\"\"\", conn2)\n",
         "df_4_oldest"
       ]
