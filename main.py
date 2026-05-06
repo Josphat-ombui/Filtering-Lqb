@@ -9,7 +9,7 @@ conn3 = sqlite3.connect('babe_ruth.db')
 # Part I: Basic Filtering
 
 # Step 1: Return all columns for planets with 0 moons
-df_zero_moons = pd.read_sql("""
+df_no_moons = pd.read_sql("""
     SELECT * FROM planets
     WHERE num_of_moons = 0;
 """, conn1)
